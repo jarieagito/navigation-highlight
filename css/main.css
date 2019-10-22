@@ -8,4 +8,19 @@ html {
 
 h1 {
   font-family: "Sigmar One", cursive;
+  text-align: center;
+  color: #000;
+  margin: .3em;
+}
+
+body {
+  background-color: #fff;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+header {
+  background-color: #ffe500;
 }
