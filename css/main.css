@@ -9,8 +9,9 @@ html {
 h1 {
   font-family: "Sigmar One", cursive;
   text-align: center;
-  color: #000;
-  margin: .3em;
+  color: #b20953;
+  margin: 0;
+  font-size: 3rem;
 }
 
 body {
@@ -23,4 +24,40 @@ body {
 
 header {
   background-color: #ffe500;
+}
+
+li a {
+  text-decoration: none;
+  font-family: Georgia, sans-serif;
+  color: #fff;
+  padding: .5em;
+  font-size: 1rem;
+}
+
+.bears li {
+  display: inline-block;
+  background-color: #b2a212;
+  text-align: left;
+  border-radius: 4px;
+  padding: .3em .2em;
+}
+
+.bears {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: .3em;
+  padding: .3em;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #b20953;
+  border-radius: 4px;
+  padding: .2em .1em;
+}
+
+.bears .current {
+  background-color: #b20953;
+  border-radius: 4px;
 }
