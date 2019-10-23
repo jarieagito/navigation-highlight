@@ -10,8 +10,8 @@ h1 {
   font-family: "Sigmar One", cursive;
   text-align: center;
   color: #b20953;
-  margin: 0;
   font-size: 3rem;
+  margin: 0;
 }
 
 body {
@@ -30,7 +30,8 @@ li a {
   text-decoration: none;
   font-family: Georgia, sans-serif;
   color: #fff;
-  padding: .5em;
+  padding: .4em;
+  font-size: 1.125rem;
 }
 
 .bears li {
@@ -38,21 +39,22 @@ li a {
   background-color: #b2a212;
   text-align: left;
   border-radius: 4px;
-  padding: .3em 0;
+  margin: 0;
+  padding: .3em .1em;
 }
 
 .bears {
   list-style-type: none;
   text-align: center;
-  margin: .3em;
-  padding: .3em 0;
+  padding: 0 .2em .4em;
+  margin: 0;
 }
 
 a:hover {
   text-decoration: none;
   background-color: #cc1465;
   border-radius: 4px;
-  padding: .5em;
+  padding: .4em;
 }
 
 .bears .current {
@@ -63,9 +65,9 @@ a:hover {
 h2 {
   color: #b20953;
   font-family: "Sigmar One", cursive;
-  padding: .5em;
-  font-size: 2rem;
-  margin: 0;
+  padding: .4em .1em;
+  font-size: 1.875rem;
+  margin: .3em;
 }
 
 strong {
@@ -74,19 +76,19 @@ strong {
 
 p {
   font-family: Georgia, sans-serif;
-  padding: .2em .4em;
+  padding: .2em .4em .75em;
   text-align: left;
+  margin: .3em;
 }
 
 img {
   display: block;
   width: 100%;
-  max-width: 400px;
-  padding: .2em .4em;
+  padding: .2em .6em;
 }
 
 footer {
   background-color: #ffe500;
   text-align: center;
-  padding: .75em;
+  padding: 1rem;
 }
